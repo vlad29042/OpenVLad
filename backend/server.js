@@ -8,7 +8,7 @@ const sequelize = require('./config/database');
 const assistantRoutes = require('./routes/assistantRoutes');
 
 const app = express();
-app.use(cors());
+app.use(cors()); // Добавьте этот вызов для настройки CORS
 app.use(bodyParser.json());
 app.use(assistantRoutes);
 

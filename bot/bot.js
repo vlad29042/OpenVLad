@@ -9,8 +9,7 @@ bot.onText(/\/start/, (msg) => {
   const chatId = msg.chat.id;
   const userId = msg.from.id;
 
-  // Используем полный URL для веб-интерфейса
-  const webAppUrl = `${process.env.REACT_APP_API_URL}/edit-assistant/${userId}`;
+  const webAppUrl = `https://92ef-109-248-253-122.ngrok-free.app/edit-assistant/${userId}`;
 
   bot.sendMessage(chatId, 'Добро пожаловать! Выберите действие:', {
     reply_markup: {
