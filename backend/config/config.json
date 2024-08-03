@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "telegram_user",
+    "password": "secure_password",
+    "database": "telegram_openai",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "telegram_user",
+    "password": "secure_password",
+    "database": "telegram_openai_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "telegram_user",
+    "password": "secure_password",
+    "database": "telegram_openai_prod",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
